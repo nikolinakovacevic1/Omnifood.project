@@ -63,6 +63,15 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+/* FOR STOPPING THE OVERFLOWING ON MOBILE PHONES */
+body {
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html {
   /* font-size: 10px; */
   /* 10px/16px = 0.625 = 62.5% */
